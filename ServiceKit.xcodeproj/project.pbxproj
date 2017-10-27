@@ -10,6 +10,15 @@
 		A7D26B331FA3582B0064E23C /* ServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D26B291FA3582B0064E23C /* ServiceKit.framework */; };
 		A7D26B381FA3582B0064E23C /* ServiceKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B371FA3582B0064E23C /* ServiceKitTests.swift */; };
 		A7D26B3A1FA3582B0064E23C /* ServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D26B2C1FA3582B0064E23C /* ServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D26B4C1FA3585D0064E23C /* ModelRequestJSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B431FA3585C0064E23C /* ModelRequestJSONEncoder.swift */; };
+		A7D26B4D1FA3585D0064E23C /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B441FA3585C0064E23C /* ServiceConfiguration.swift */; };
+		A7D26B4E1FA3585D0064E23C /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B451FA3585C0064E23C /* ServiceModel.swift */; };
+		A7D26B4F1FA3585D0064E23C /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B461FA3585C0064E23C /* Query.swift */; };
+		A7D26B501FA3585D0064E23C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B471FA3585C0064E23C /* Service.swift */; };
+		A7D26B511FA3585D0064E23C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B481FA3585D0064E23C /* NetworkError.swift */; };
+		A7D26B521FA3585D0064E23C /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B491FA3585D0064E23C /* LoginCredentials.swift */; };
+		A7D26B531FA3585D0064E23C /* ModelResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B4A1FA3585D0064E23C /* ModelResponseHandler.swift */; };
+		A7D26B541FA3585D0064E23C /* URLQueryParameterStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D26B4B1FA3585D0064E23C /* URLQueryParameterStringConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		A7D26B321FA3582B0064E23C /* ServiceKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D26B371FA3582B0064E23C /* ServiceKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceKitTests.swift; sourceTree = "<group>"; };
 		A7D26B391FA3582B0064E23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D26B431FA3585C0064E23C /* ModelRequestJSONEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelRequestJSONEncoder.swift; sourceTree = "<group>"; };
+		A7D26B441FA3585C0064E23C /* ServiceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConfiguration.swift; sourceTree = "<group>"; };
+		A7D26B451FA3585C0064E23C /* ServiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		A7D26B461FA3585C0064E23C /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		A7D26B471FA3585C0064E23C /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A7D26B481FA3585D0064E23C /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A7D26B491FA3585D0064E23C /* LoginCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		A7D26B4A1FA3585D0064E23C /* ModelResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelResponseHandler.swift; sourceTree = "<group>"; };
+		A7D26B4B1FA3585D0064E23C /* URLQueryParameterStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLQueryParameterStringConvertible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,15 @@
 		A7D26B2B1FA3582B0064E23C /* ServiceKit */ = {
 			isa = PBXGroup;
 			children = (
+				A7D26B491FA3585D0064E23C /* LoginCredentials.swift */,
+				A7D26B431FA3585C0064E23C /* ModelRequestJSONEncoder.swift */,
+				A7D26B4A1FA3585D0064E23C /* ModelResponseHandler.swift */,
+				A7D26B481FA3585D0064E23C /* NetworkError.swift */,
+				A7D26B461FA3585C0064E23C /* Query.swift */,
+				A7D26B471FA3585C0064E23C /* Service.swift */,
+				A7D26B441FA3585C0064E23C /* ServiceConfiguration.swift */,
+				A7D26B451FA3585C0064E23C /* ServiceModel.swift */,
+				A7D26B4B1FA3585D0064E23C /* URLQueryParameterStringConvertible.swift */,
 				A7D26B2C1FA3582B0064E23C /* ServiceKit.h */,
 				A7D26B2D1FA3582B0064E23C /* Info.plist */,
 			);
@@ -148,6 +175,7 @@
 				TargetAttributes = {
 					A7D26B281FA3582B0064E23C = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					A7D26B311FA3582B0064E23C = {
@@ -196,6 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D26B541FA3585D0064E23C /* URLQueryParameterStringConvertible.swift in Sources */,
+				A7D26B4F1FA3585D0064E23C /* Query.swift in Sources */,
+				A7D26B4D1FA3585D0064E23C /* ServiceConfiguration.swift in Sources */,
+				A7D26B501FA3585D0064E23C /* Service.swift in Sources */,
+				A7D26B531FA3585D0064E23C /* ModelResponseHandler.swift in Sources */,
+				A7D26B521FA3585D0064E23C /* LoginCredentials.swift in Sources */,
+				A7D26B511FA3585D0064E23C /* NetworkError.swift in Sources */,
+				A7D26B4E1FA3585D0064E23C /* ServiceModel.swift in Sources */,
+				A7D26B4C1FA3585D0064E23C /* ModelRequestJSONEncoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +371,7 @@
 		A7D26B3E1FA3582B0064E23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.keycar.ServiceKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +394,7 @@
 		A7D26B3F1FA3582B0064E23C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +416,7 @@
 		A7D26B411FA3582B0064E23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GX3ZT26ZRR;
 				INFOPLIST_FILE = ServiceKitTests/Info.plist;
@@ -390,6 +431,7 @@
 		A7D26B421FA3582B0064E23C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GX3ZT26ZRR;
 				INFOPLIST_FILE = ServiceKitTests/Info.plist;
